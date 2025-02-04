@@ -33,10 +33,10 @@ const feedElements = [
 ];
 
 const morePages = [
-    { title: "Email Box", to: "/defaultemailbox", icon: "feather-inbox" },
-    { title: "Near Hotel", to: "/defaulthotel", icon: "feather-home" },
-    { title: "Latest Event", to: "/defaultevent", icon: "feather-map-pin" },
-    { title: "Live Stream", to: "/defaultlive", icon: "feather-youtube" }
+    { title: "Email Box", to: "/defaultemailbox", icon: "feather-inbox", count: 0 },
+    { title: "Near Hotel", to: "/defaulthotel", icon: "feather-home", count: 0 },
+    { title: "Latest Event", to: "/defaultevent", icon: "feather-map-pin", count: 0 },
+    { title: "Live Stream", to: "/defaultlive", icon: "feather-youtube", count: 0 }
 ]
 
 
