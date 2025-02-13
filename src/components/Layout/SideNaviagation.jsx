@@ -41,22 +41,22 @@ export const SideNavigation = ({ navClass }) => {
                     <div className="nav-wrap bg-white bg-transparent-card rounded-xxl shadow-xss pt-3 pb-1 mb-2 mt-2">
                         <div className="nav-caption fw-600 font-xssss text-grey-500">
                             <span>New </span>Feeds
-                            <ul className="mb-1 top-content">
-                                {feedElements.map((feedElement) => (
-                                    <li key={feedElement.to}>
-                                        <Link
-                                            to={feedElement.to}
-                                            className="nav-content-bttn open-font"
-                                        >
-                                            <i
-                                                className={`${feedElement.icon} btn-round-md bg-${feedElement.color}-gradiant me-3`}
-                                            />
-                                            <span>{feedElement.title}</span>
-                                        </Link>
-                                    </li>
-                                ))}
-                            </ul>
                         </div>
+                        <ul className="mb-1 top-content">
+                            {feedElements.map((feedElement) => (
+                                <li key={feedElement.to}>
+                                    <Link
+                                        to={feedElement.to}
+                                        className="nav-content-bttn open-font"
+                                    >
+                                        <i
+                                            className={`${feedElement.icon} btn-round-md bg-${feedElement.color}-gradiant me-3`}
+                                        />
+                                        <span>{feedElement.title}</span>
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
 
                     {/* More Pages */}

@@ -17,8 +17,7 @@ export const Home = () => {
 
     console.log("posts from Home component:", posts);
 
-
-    const updatedPosts = posts?.map((post) => {
+    const updatedPosts = posts.map((post) => {
         return {
             ...post,
             postimage: `https://picsum.photos/id/${post.id}/800/400`,
